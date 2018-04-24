@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+@import AVFoundation;
 
 @interface ViewController : UIViewController
-
+{
+    AVPlayer *player;
+}
 
 @end
 

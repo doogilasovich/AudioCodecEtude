@@ -13,9 +13,28 @@
 		5BB42E842081A8BC00230C21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB42E832081A8BC00230C21 /* Assets.xcassets */; };
 		5BB42E872081A8BC00230C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB42E852081A8BC00230C21 /* LaunchScreen.storyboard */; };
 		5BB42E8A2081A8BC00230C21 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB42E892081A8BC00230C21 /* main.m */; };
+		5BB42E942081AC6D00230C21 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB42E932081AC6D00230C21 /* AVFoundation.framework */; };
+		5BB42E952081AD3500230C21 /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5BB42E922081AC0100230C21 /* sample.m4a */; };
+		5BB42E982081AF7B00230C21 /* CustomCodecResourceLoaderDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB42E972081AF7B00230C21 /* CustomCodecResourceLoaderDelegate.m */; };
+		5BB42EA12081C03B00230C21 /* AudioCodecEtudeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB42EA02081C03B00230C21 /* AudioCodecEtudeTests.m */; };
+		9B204153F50717735C8E0CA0 /* Pods_AudioCodecEtudeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80C5657670E3A70FB68CCE40 /* Pods_AudioCodecEtudeTests.framework */; };
+		B9B2FBEE143A2EF3E28963C5 /* Pods_AudioCodecEtude.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F7AF00C7A3399CF92BF4D16 /* Pods_AudioCodecEtude.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5BB42EA32081C03B00230C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BB42E6F2081A8BA00230C21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB42E762081A8BA00230C21;
+			remoteInfo = AudioCodecEtude;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		28289FBBF46AAA9A3D003588 /* Pods-AudioCodecEtudeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCodecEtudeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCodecEtudeTests/Pods-AudioCodecEtudeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3FA1ECA587DB277399F3442A /* Pods-AudioCodecEtude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCodecEtude.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCodecEtude/Pods-AudioCodecEtude.debug.xcconfig"; sourceTree = "<group>"; };
+		5A1997438A939AABD2B9ABBE /* Pods-AudioCodecEtudeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCodecEtudeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCodecEtudeTests/Pods-AudioCodecEtudeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5BB42E772081A8BA00230C21 /* AudioCodecEtude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioCodecEtude.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB42E7A2081A8BB00230C21 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5BB42E7B2081A8BB00230C21 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +45,16 @@
 		5BB42E862081A8BC00230C21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB42E882081A8BC00230C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BB42E892081A8BC00230C21 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BB42E922081AC0100230C21 /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
+		5BB42E932081AC6D00230C21 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5BB42E962081AF7B00230C21 /* CustomCodecResourceLoaderDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCodecResourceLoaderDelegate.h; sourceTree = "<group>"; };
+		5BB42E972081AF7B00230C21 /* CustomCodecResourceLoaderDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCodecResourceLoaderDelegate.m; sourceTree = "<group>"; };
+		5BB42E9E2081C03B00230C21 /* AudioCodecEtudeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioCodecEtudeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB42EA02081C03B00230C21 /* AudioCodecEtudeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioCodecEtudeTests.m; sourceTree = "<group>"; };
+		5BB42EA22081C03B00230C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F7AF00C7A3399CF92BF4D16 /* Pods_AudioCodecEtude.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioCodecEtude.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80C5657670E3A70FB68CCE40 /* Pods_AudioCodecEtudeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioCodecEtudeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DC2D71CB0F1AAD32941735 /* Pods-AudioCodecEtude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioCodecEtude.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioCodecEtude/Pods-AudioCodecEtude.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +62,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB42E942081AC6D00230C21 /* AVFoundation.framework in Frameworks */,
+				B9B2FBEE143A2EF3E28963C5 /* Pods_AudioCodecEtude.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BB42E9B2081C03B00230C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B204153F50717735C8E0CA0 /* Pods_AudioCodecEtudeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19001F72FE63CFB4030699D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FA1ECA587DB277399F3442A /* Pods-AudioCodecEtude.debug.xcconfig */,
+				82DC2D71CB0F1AAD32941735 /* Pods-AudioCodecEtude.release.xcconfig */,
+				5A1997438A939AABD2B9ABBE /* Pods-AudioCodecEtudeTests.debug.xcconfig */,
+				28289FBBF46AAA9A3D003588 /* Pods-AudioCodecEtudeTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5BB42E6E2081A8BA00230C21 = {
 			isa = PBXGroup;
 			children = (
 				5BB42E792081A8BA00230C21 /* AudioCodecEtude */,
+				5BB42E9F2081C03B00230C21 /* AudioCodecEtudeTests */,
 				5BB42E782081A8BA00230C21 /* Products */,
+				19001F72FE63CFB4030699D4 /* Pods */,
+				70BDEF759A8163A39C2EFBC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5BB42E772081A8BA00230C21 /* AudioCodecEtude.app */,
+				5BB42E9E2081C03B00230C21 /* AudioCodecEtudeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +112,8 @@
 		5BB42E792081A8BA00230C21 /* AudioCodecEtude */ = {
 			isa = PBXGroup;
 			children = (
+				5BB42E912081ABF400230C21 /* Resources */,
+				5BB42E902081AA9600230C21 /* Player */,
 				5BB42E7A2081A8BB00230C21 /* AppDelegate.h */,
 				5BB42E7B2081A8BB00230C21 /* AppDelegate.m */,
 				5BB42E7D2081A8BB00230C21 /* ViewController.h */,
@@ -71,6 +127,42 @@
 			path = AudioCodecEtude;
 			sourceTree = "<group>";
 		};
+		5BB42E902081AA9600230C21 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				5BB42E962081AF7B00230C21 /* CustomCodecResourceLoaderDelegate.h */,
+				5BB42E972081AF7B00230C21 /* CustomCodecResourceLoaderDelegate.m */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		5BB42E912081ABF400230C21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BB42E922081AC0100230C21 /* sample.m4a */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BB42E9F2081C03B00230C21 /* AudioCodecEtudeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BB42EA02081C03B00230C21 /* AudioCodecEtudeTests.m */,
+				5BB42EA22081C03B00230C21 /* Info.plist */,
+			);
+			path = AudioCodecEtudeTests;
+			sourceTree = "<group>";
+		};
+		70BDEF759A8163A39C2EFBC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BB42E932081AC6D00230C21 /* AVFoundation.framework */,
+				6F7AF00C7A3399CF92BF4D16 /* Pods_AudioCodecEtude.framework */,
+				80C5657670E3A70FB68CCE40 /* Pods_AudioCodecEtudeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +170,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BB42E8D2081A8BC00230C21 /* Build configuration list for PBXNativeTarget "AudioCodecEtude" */;
 			buildPhases = (
+				5052530DCF2B593DCFA834A7 /* [CP] Check Pods Manifest.lock */,
 				5BB42E732081A8BA00230C21 /* Sources */,
 				5BB42E742081A8BA00230C21 /* Frameworks */,
 				5BB42E752081A8BA00230C21 /* Resources */,
+				8F17EA9D7365715EA3C911BB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -90,6 +184,26 @@
 			productName = AudioCodecEtude;
 			productReference = 5BB42E772081A8BA00230C21 /* AudioCodecEtude.app */;
 			productType = "com.apple.product-type.application";
+		};
+		5BB42E9D2081C03B00230C21 /* AudioCodecEtudeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB42EA52081C03B00230C21 /* Build configuration list for PBXNativeTarget "AudioCodecEtudeTests" */;
+			buildPhases = (
+				4D885F26BBB2D60F15963E2B /* [CP] Check Pods Manifest.lock */,
+				5BB42E9A2081C03B00230C21 /* Sources */,
+				5BB42E9B2081C03B00230C21 /* Frameworks */,
+				5BB42E9C2081C03B00230C21 /* Resources */,
+				B359382A091D9D00BF4B90D2 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BB42EA42081C03B00230C21 /* PBXTargetDependency */,
+			);
+			name = AudioCodecEtudeTests;
+			productName = AudioCodecEtudeTests;
+			productReference = 5BB42E9E2081C03B00230C21 /* AudioCodecEtudeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -102,6 +216,10 @@
 				TargetAttributes = {
 					5BB42E762081A8BA00230C21 = {
 						CreatedOnToolsVersion = 9.3;
+					};
+					5BB42E9D2081C03B00230C21 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 5BB42E762081A8BA00230C21;
 					};
 				};
 			};
@@ -119,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				5BB42E762081A8BA00230C21 /* AudioCodecEtude */,
+				5BB42E9D2081C03B00230C21 /* AudioCodecEtudeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,13 +247,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BB42E952081AD3500230C21 /* sample.m4a in Resources */,
 				5BB42E872081A8BC00230C21 /* LaunchScreen.storyboard in Resources */,
 				5BB42E842081A8BC00230C21 /* Assets.xcassets in Resources */,
 				5BB42E822081A8BB00230C21 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BB42E9C2081C03B00230C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D885F26BBB2D60F15963E2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioCodecEtudeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5052530DCF2B593DCFA834A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudioCodecEtude-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F17EA9D7365715EA3C911BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AudioCodecEtude/Pods-AudioCodecEtude-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DLMCore/DLMCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLMCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioCodecEtude/Pods-AudioCodecEtude-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B359382A091D9D00BF4B90D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AudioCodecEtudeTests/Pods-AudioCodecEtudeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DLMCore/DLMCore.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DLMCore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AudioCodecEtudeTests/Pods-AudioCodecEtudeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BB42E732081A8BA00230C21 /* Sources */ = {
@@ -142,12 +344,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB42E7F2081A8BB00230C21 /* ViewController.m in Sources */,
+				5BB42E982081AF7B00230C21 /* CustomCodecResourceLoaderDelegate.m in Sources */,
 				5BB42E8A2081A8BC00230C21 /* main.m in Sources */,
 				5BB42E7C2081A8BB00230C21 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5BB42E9A2081C03B00230C21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB42EA12081C03B00230C21 /* AudioCodecEtudeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BB42EA42081C03B00230C21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BB42E762081A8BA00230C21 /* AudioCodecEtude */;
+			targetProxy = 5BB42EA32081C03B00230C21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5BB42E802081A8BB00230C21 /* Main.storyboard */ = {
@@ -281,15 +500,13 @@
 		};
 		5BB42E8E2081A8BC00230C21 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA1ECA587DB277399F3442A /* Pods-AudioCodecEtude.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = REK8JLPN42;
 				INFOPLIST_FILE = AudioCodecEtude/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlm.AudioCodecEtude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,18 +515,48 @@
 		};
 		5BB42E8F2081A8BC00230C21 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82DC2D71CB0F1AAD32941735 /* Pods-AudioCodecEtude.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = REK8JLPN42;
 				INFOPLIST_FILE = AudioCodecEtude/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dlm.AudioCodecEtude;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BB42EA62081C03B00230C21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1997438A939AABD2B9ABBE /* Pods-AudioCodecEtudeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REK8JLPN42;
+				INFOPLIST_FILE = AudioCodecEtudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlm.AudioCodecEtudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCodecEtude.app/AudioCodecEtude";
+			};
+			name = Debug;
+		};
+		5BB42EA72081C03B00230C21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28289FBBF46AAA9A3D003588 /* Pods-AudioCodecEtudeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = REK8JLPN42;
+				INFOPLIST_FILE = AudioCodecEtudeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dlm.AudioCodecEtudeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioCodecEtude.app/AudioCodecEtude";
 			};
 			name = Release;
 		};
@@ -330,6 +577,15 @@
 			buildConfigurations = (
 				5BB42E8E2081A8BC00230C21 /* Debug */,
 				5BB42E8F2081A8BC00230C21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BB42EA52081C03B00230C21 /* Build configuration list for PBXNativeTarget "AudioCodecEtudeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BB42EA62081C03B00230C21 /* Debug */,
+				5BB42EA72081C03B00230C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
