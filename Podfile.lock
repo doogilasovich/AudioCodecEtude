@@ -1,0 +1,21 @@
+PODS:
+  - DLMCore (0.0.1)
+
+DEPENDENCIES:
+  - "DLMCore (from `git@github.com:doogilasovich/DLMCore.git`)"
+
+EXTERNAL SOURCES:
+  DLMCore:
+    :git: "git@github.com:doogilasovich/DLMCore.git"
+
+CHECKOUT OPTIONS:
+  DLMCore:
+    :commit: 05e4d783d05c76b44efda44bb06b52f9d3197891
+    :git: "git@github.com:doogilasovich/DLMCore.git"
+
+SPEC CHECKSUMS:
+  DLMCore: 9cd14606a3c21204a41f5715d8eba4d147abb280
+
+PODFILE CHECKSUM: aabe1f6e6151dfd18f60cafc155bfd722defd652
+
+COCOAPODS: 1.5.0
