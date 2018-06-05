@@ -96,6 +96,7 @@ didReceiveResponse:(NSURLResponse *)response
 @interface CustomCodecResourceLoaderDelegate()
 {
     dispatch_queue_t loaderQueue;
+    NSURLSessionDataTask *dataTask;
 }
 @end
 
@@ -176,7 +177,10 @@ didReceiveResponse:(NSURLResponse *)response
             [request setValue:rangeHeader forHTTPHeaderField:@"Range"];
         }
         
-        NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
+        NSLog(@"Starting infoRequest dataTask");
+        NSAssert(dataTask==nil, nil);
+
+        dataTask = [session dataTaskWithRequest:request completionHandler:^(NSData *data, NSURLResponse *response, NSError *error)
                                           {
                                               if (error) {
                                                   [loadingRequest finishLoadingWithError:error];
@@ -200,6 +204,7 @@ didReceiveResponse:(NSURLResponse *)response
                                                   NSLog(@"contentLength: %lli", infoRequest.contentLength);
 
                                                   [loadingRequest finishLoading];
+                                                  dataTask = nil;
                                               }
                                               
                                           }];
@@ -222,9 +227,8 @@ didReceiveResponse:(NSURLResponse *)response
 
     }
     
-    if (dataRequest.requestedLength <= 2) {
+    if (dataRequest.requestedLength) {
         NSLog(@"requestedLength = %ld", (long)dataRequest.requestedLength);
-//        return YES;
     }
     
     let redirectURL = loadingRequest.request.URL;
@@ -240,7 +244,9 @@ didReceiveResponse:(NSURLResponse *)response
                                            delegateQueue:operationQueue
                    ];
     
-    NSURLSessionDataTask *dataTask = [session dataTaskWithRequest:request completionHandler:nil];
+    NSLog(@"Starting dataRequest dataTask");
+//    NSAssert(dataTask==nil, nil);
+    dataTask = [session dataTaskWithRequest:request completionHandler:nil];
     
     [dataTask resume];
 
@@ -265,6 +271,8 @@ didReceiveResponse:(NSURLResponse *)response
 -(void)resourceLoader:(AVAssetResourceLoader *)resourceLoader didCancelLoadingRequest:(nonnull AVAssetResourceLoadingRequest *)loadingRequest
 {
     NSLog(@"didCancelLoadingRequest: called");
+    [dataTask cancel];
+    dataTask = nil;
 
     
 }

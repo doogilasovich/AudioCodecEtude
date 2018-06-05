@@ -34,6 +34,8 @@
 //    let audioURL = [NSURL URLWithString:@"https://github.com/mediaelement/mediaelement-files/raw/master/AirReview-Landmarks-02-ChasingCorporate.mp3"];
 //    let audioURL = [NSURL URLWithString:@"http://localhost/SampleAudio_0.7mb.mp3"];
 //    let audioURL = [NSURL URLWithString:@"http://10.0.1.10/SampleAudio_0.7mb.mp3"];
+//    let audioURL = [NSURL URLWithString:@"http://nugs3.edgesuite.net/assets/nugsnet/sony/IATestV2_1_mpegh_20171031.mp4"];
+    
 
     
 
